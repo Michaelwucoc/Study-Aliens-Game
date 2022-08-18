@@ -4,7 +4,7 @@ import pygame
 
 class AlienInvasion:
 	"""page 205"""
-	def _init_(self):
+	def __init__(self):
 		pygame.init()
 
 		self.screen=pygame.display.set_mode((1200,800))
@@ -17,6 +17,6 @@ class AlienInvasion:
 
 			pygame.display.flip()
 
-if __name__ == "_main_":
+if __name__ == '__main__':
 	ai=AlienInvasion()
 	ai.run_game()

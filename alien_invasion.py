@@ -17,7 +17,7 @@ class AlienInvasion:
 				if event.type==pygame.QUIT:
 					sys.exit()
 			#每次退出循环绘制屏幕
-			self.screen.fill(self.bg_color)
+					self.screen.fill(self.bg_color)
 			#让绘制屏幕可见
 			pygame.display.flip()
 

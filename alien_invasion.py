@@ -19,6 +19,4 @@ class AlienInvasion:
 
 if _name_ == "_main_":
 	ai=AlienInvasion()
-	ai.run_game
-
-	self.screen=pygame.display.set_mode((1200,800))
+	ai.run_game()
